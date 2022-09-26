@@ -551,11 +551,8 @@ a, img {
    min-width: 142px;
 }
 
-.contacts:hover .contacts-icon  {
-   fill: var(--accent-color);
-}
-
-.contacts:focus .contacts-icon {
+.contacts:hover .contacts-icon,
+.contacts:focus .contacts-icon  {
    fill: var(--accent-color);
 }
 
