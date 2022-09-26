@@ -760,6 +760,7 @@ a, img {
 
 .card-thumb {
    position: relative;
+   overflow: hidden;
 
    transition-property: opacity, transform;
    transition-duration: 250ms;
