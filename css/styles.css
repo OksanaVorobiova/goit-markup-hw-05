@@ -790,8 +790,8 @@ a, img {
    transform: translateY(0);
 }
 
-.flex-card:focus>.card-thumb::before,
-.flex-card:focus>.card-thumb>.card-hover {
+.flex-card:focus-within>.card-thumb::before,
+.flex-card:focus-within>.card-thumb>.card-hover {
    opacity: 1;
    transform: translateY(0);
 }
