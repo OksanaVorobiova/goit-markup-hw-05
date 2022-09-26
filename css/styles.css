@@ -833,6 +833,10 @@ a, img {
    visibility: hidden;
 }
 
+.backdrop.is-hidden .modal {
+   transform: translate(-50%, -50%) scale(0.9);
+}
+
 .modal {
    position: relative;
    top: 50%;
@@ -841,6 +845,10 @@ a, img {
    width: 528px;
    height: 581px;
    background-color: var(--primary-background-color);
+
+   transform: translate(-50%, -50%) scale(1);
+   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            
 }
 
 .modal-close {
